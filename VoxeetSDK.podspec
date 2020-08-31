@@ -8,5 +8,5 @@ Pod::Spec.new do |spec|
   spec.platform = :ios, "9.0"
   spec.swift_version = "5.2.4"
   spec.source = { :http => "https://vox-ios-sdk.s3.us-east-1.amazonaws.com/sdk/ios/release/#{spec.version}/VoxeetSDK.zip" }
-  spec.vendored_frameworks = "VoxeetSDK.framework", "WebRTC.framework"
+  spec.vendored_frameworks = "VoxeetSDK.framework"
 end
